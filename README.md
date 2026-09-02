@@ -47,25 +47,3 @@ header (your name/app + contact email). This is set in
 own info before relying on this for anything beyond a demo. SEC also rate
 limits requests, so avoid hammering the API in a loop.
 
-## Why this is a good resume project
-
-- Uses a **real, primary data source** (SEC XBRL filings) — not a toy dataset
-- Mirrors actual audit/advisory analytical procedures: ratio analysis,
-  trend analysis, and rule-based anomaly detection
-- Demonstrates Python, working with REST APIs, pandas, and data visualization
-- Directly relevant to Big 4 audit/advisory roles, where "read financials,
-  compute ratios, and flag anomalies" is core entry-level work
-
-**Suggested resume bullet:**
-> Built a Python tool that pulls public companies' financial statements
-> from SEC EDGAR's XBRL API, computes liquidity/profitability/leverage
-> ratios across multiple fiscal years, and flags audit-relevant anomalies
-> (e.g. receivables outpacing revenue growth, weak cash-flow-to-earnings
-> conversion).
-
-## Ideas to extend it (good "what would you add next" interview answer)
-
-- Add more red-flag rules (e.g. gross margin volatility, unusual SG&A trends)
-- Compare a company against its industry peers
-- Add a simple web front-end (Streamlit) so it's demo-able without a terminal
-- Cache downloaded filings so repeat runs don't re-hit the SEC API
