@@ -6,9 +6,6 @@ ratios across the last several fiscal years, and automatically flags
 patterns that would catch an auditor's or analyst's eye — like receivables
 growing faster than revenue, or cash flow lagging behind net income.
 
-Built as a resume/portfolio project for accounting & analytics students —
-it mirrors real audit/advisory analytical procedures (ratio analysis,
-trend analysis, anomaly flagging) rather than being a generic finance app.
 
 ## What it does
 
